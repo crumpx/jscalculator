@@ -1,0 +1,102 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #6d7993;
+}
+
+#calculator {
+  height: 400px;
+  width: 300px;
+  background-color: #9099a2;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: 1px solid white;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68);
+}
+
+#buttons {
+  font-size: 16px;
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 16px;
+  margin-left: 18px;
+}
+
+
+button {
+  height: 40px;
+  width: 50px;
+  margin: 0 4px 10px 8px;
+  background-color: #d5d5d5; 
+  color: black;
+  border: 0px;
+}
+
+#equalButton {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -50px;
+  height: 90px;
+  
+}
+
+#zeroButton {
+  width: 117px;
+}
+
+
+#title {
+  padding-top: 12px;
+}
+
+#entries {
+  background-color: #1a0000;
+  color: white;
+  margin: 0px 12px 0px 12px;
+  border-radius: 8px;
+}
+
+#entry {
+  font-size: 26px;
+  margin-right: 12px;
+}
+
+#history {
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+.clear {
+  background-color: #e6005c;
+  color: white;
+}
+
+#footer {
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 40px;
+  width: 100%;
+  height: 40px;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #922031;
+  text-decoration: none !important;
+  outline: none !important;
+}
